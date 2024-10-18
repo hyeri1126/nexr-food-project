@@ -1,0 +1,6 @@
+{
+  "extends": "next/core-web-vitals", // ESLint의 기본 규칙을 Next.js의 권장 규칙으로 확장
+  "rules": {
+    "@next/text/no-img-element": "off" // <img> 태그를 사용해도 ESLint 경고 발생 x
+  }
+}
